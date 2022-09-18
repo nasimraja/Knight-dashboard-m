@@ -1,0 +1,118 @@
+@media(max-width: 1500) {
+    .header-c2 {
+        width: 80%;
+    }
+}
+
+@media(max-width: 1440px) {
+    .header-c2 {
+        width: 70%;
+    }
+    .menu-list-d > li > a {
+        margin-left: 15px;
+    }
+}
+ 
+ @media(max-width: 1166px) {
+     .leftsidebar {
+         width: 30px;
+     }
+     .menu-list-d {
+        display: none;
+    }
+    .burger-area {
+        display: block;
+    }
+    .toggle-slide-right {
+        display: block;
+    }
+    .slider-wp {
+        margin: 100px 40px 0px 10px;
+    }
+    .toggle-slide-right {
+        text-align: right;
+    }
+     .l-sideb-list>li>a>span {
+         display: none;
+     }
+
+     .go-back {
+         margin: 20px 0px;
+     }
+
+     .viewcstmr-dstbut>p {
+         width: 13%;
+     }
+
+     .save {
+         margin: 20px 0px;
+     }
+     .list-wrp {
+        display: none;
+    }
+    .ReactModal__Content {
+        width: 50%;
+    }
+    .ReactModal__Overlay  {
+        margin-top: -250px;
+    }
+    .menu-list-wrp {
+        padding: 30px;
+    }
+    .menu-list2 > li > a {
+        background-color: #064688;
+        padding: 10px 20px;
+        width: 200px;
+        border-radius: 8px;
+        transition: 0.5s;
+    }
+    .menu-list2 > li > a:hover{
+        background-color: #3291bd;
+    }
+    .menu-list2 {
+        margin-top: 50px;
+    }
+ }
+
+ @media(max-width: 992px) {
+    .slider-wp {
+        margin: 100px 40px 0px 40px;
+    }
+    .ReactModal__Overlay  {
+        margin-top: -500px;
+    }
+    
+ }
+
+ @media(max-width: 767px) {
+    .slider-wp {
+        margin: 85px 20px 0px 20px;
+    }
+    .ReactModal__Overlay {
+        margin-top: -300px;
+    }
+    .ReactModal__Content {
+        width: 90%;
+    }
+    .border-b {
+        padding: 10px 5px;
+    }
+    .burgers > img {
+        width: 26px;
+    }
+    .logo>a>img {
+        width: 100px;
+    }
+    .menu-list-wrp {
+        padding: 15px;
+    }
+    .menu-list2 > li > a {
+        padding: 8px 20px;
+    }
+    .login {
+        padding-top: 20px;
+    }
+    .login-b {
+        width: 325px;
+    }
+}
